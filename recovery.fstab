@@ -39,5 +39,5 @@
 /product             ext4     /dev/block/by-name/product         flags=display=product
 /data                f2fs     /dev/block/by-name/userdata        flags=backup=1;display="data"
 /cache               ext4     /dev/block/by-name/cache           flags=wipeingui;display="cache"
-/mnt/vendor          ext4     /dev/block/by-name/prodnv          flags=backup=1;display="prodnv";flashimg
+/mnt/prodnv          ext4     /dev/block/by-name/prodnv          flags=backup=1;display="prodnv";flashimg
 /external_sd     vfat     /dev/block/mmcblk1p1               flags=fsflags=utf8;display="external_sd"
